@@ -1,0 +1,10 @@
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Mein Titel">
+<meta property="og:url" content="https://moebel-guenter.de">
+<meta property="og:image" content="https://moebel-guenter.de/bild.jpg The recommended size is 1200x627 pixels.">
+<meta property="og:description" content="meine description ">
+<meta property="business:contact_data:street_address" content="Strasse">
+<meta property="business:contact_data:locality" content="stadt">
+<meta property="business:contact_data:region" content="Bayern">
+<meta property="business:contact_data:postal_code" content="12345">
+<meta property="business:contact_data:country_name" content="Germany">
