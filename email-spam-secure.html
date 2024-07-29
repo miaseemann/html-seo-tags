@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Spam Sichere Email noch besser in mehreren Datein abspeichern -->
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Verschleierte Teile der E-Mail-Adresse
+            var parts = ['info', 'mail.de'];
+            
+            // Zusammengesetzte E-Mail-Adresse
+            var email = parts.join('@');
+            
+            // Alle Links mit der Klasse 'email-link' ansprechen
+            var emailLinks = document.querySelectorAll('.email-link');
+            emailLinks.forEach(function(link) {
+                link.href = 'mailto:' + email;
+                link.textContent = email;
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>Kontaktieren Sie uns unter: <a class="email-link" href="#">unsere E-Mail-Adresse</a></p>
+    <!-- Du kannst hier beliebig viele Links mit der Klasse 'email-link' hinzufügen -->
+    <p>Weitere Informationen: <a class="email-link" href="#">unsere E-Mail-Adresse</a></p>
+</body>
+</html>
